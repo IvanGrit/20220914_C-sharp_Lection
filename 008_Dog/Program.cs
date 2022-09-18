@@ -1,8 +1,9 @@
-﻿Console.Write("Hello, please input distance between friends: ");
-int distance = Console.Read();
+﻿//Console.Write("Hello, please input distance between friends: ");
+//int distance = Console.Read();
+int distance = 1000000;
 int firstFriendSpeed = 1;
 int secondFriendSpeed = 2;
-int dogSpeed = 20;
+int dogSpeed = 12;
 int friend = 2;
 int count = 0;
 int DogTime = 0;
@@ -23,5 +24,8 @@ while(distance > 10)
 }
 
 Console.Write("Dog will run between friends ");
-Console.Write(count);
+Conle.Write(count);
 Console.WriteLine(" times!");
+
+//int a = Convert.ToInt32(Console.ReadLine());
+//int a = int.Parse(Console.ReadLine()!);
