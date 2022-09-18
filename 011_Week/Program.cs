@@ -1,0 +1,11 @@
+﻿using static System.Console;
+Clear();
+Write("Input Number of the day: ");
+int a = Convert.ToInt32(ReadLine());
+if(a == 1) WriteLine($"Сегодня понедельник");
+if(a == 2) WriteLine($"Сегодня вторник");
+if(a == 3) WriteLine($"Сегодня среда");
+if(a == 4) WriteLine($"Сегодня четверг");
+if(a == 5) WriteLine($"Сегодня пятница");
+if(a == 6) WriteLine($"Сегодня суббота");
+if(a == 7) WriteLine($"Сегодня воскресенье");
